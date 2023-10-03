@@ -15,9 +15,7 @@ body {
 }
 
 button {
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 20px 10px;
 }
 
 .container {
@@ -74,12 +72,6 @@ button {
 
 pre {
   font-size: 16px;
-}
-
-p.footer {
-  margin: 20px;
-  color: #fff;
-  font-size: 15px;
 }
 
 @media (width <= 575px) {

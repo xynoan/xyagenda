@@ -161,9 +161,6 @@ function App() {
         <Box class="today" text="Today" function={dateToday()} schedules={schedules} />
         <Box class="tomorrow" text="Tomorrow" function={dateTomorrow()} schedules={schedules}/>
       </Boxes>
-      <p className="footer">
-        How to use: fork then edit the schedules in the JS code.
-      </p>
       <button type="button" className="btn btn-primary" onClick={handleWeek}>Increase week</button>
       <button type="button" className="btn btn-secondary" onClick={handleGym}>Next gym</button>
     </div>
